@@ -15,12 +15,20 @@ document.body.appendChild( renderer.domElement );
 const geometry = new THREE.BoxGeometry();
 //*Material que se le aplica al objeto
 const material = new THREE.MeshBasicMaterial({color: 0x00ff00});
-//*Insertar en escena el elemento con su material
+//*Objeto para crear geometry ocn su material
 const element = new THREE.Mesh( geometry, material );
 
 
+//*Insertar en escena el elemento
 scene.add(element);
-camera.position.z = 5;
+
+//*Añadir malla a escena
+const grid = new THREE.GridHelper(10, 10);
+scene.add(grid);
+camera.position.z = 15;
+camera.position.y = -10;
+camera.rotation.y = -10;
+camera.rotation.x = 10;
 
 //*renderizar la escena
 function animate() {
