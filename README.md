@@ -3,7 +3,7 @@
 Este repositorio contiene pruebas y experimentos personales utilizando Three.js, para utilizar en proyectos futuros 👀👀, una biblioteca de JavaScript para crear gráficos 3D en el navegador web.
 
 <p align="center">
-  <img src="https://cdn.worldvectorlogo.com/logos/threejs-1.svg" alt="Three.js Logo" width="200">
+  <img src="https://github.com/mrdoob/three.js/blob/dev/files/icon.svg" alt="Three.js Logo" width="200">
 </p>
 
 ## ¿Qué es Three.js?
