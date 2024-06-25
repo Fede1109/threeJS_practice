@@ -1,0 +1,17 @@
+{
+  "name": "import-model",
+  "version": "1.0.0",
+  "description": "My first import model in threejs",
+  "main": "index.js",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  },
+  "dependencies": {
+    "@parcel/config-default": "^2.12.0",
+    "three": "^0.165.0"
+  },
+  "staticFiles": {
+    "staticOutPath": "assets"
+  }
+}
