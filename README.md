@@ -19,3 +19,6 @@ Three.js es una biblioteca de JavaScript que permite crear y mostrar gráficos 3
   - [Three.js Fundamentals](https://threejsfundamentals.org/)
   - [Discover Three.js](https://discoverthreejs.com/)
   - [Video Tutorials](https://youtube.com/playlist?list=PLDllzmccetSPVF3JN6OFazp39N00yHE3A&si=moBHpKSsozwmrcle)
+
+**Recursos**
+  - [3D models](https://sketchfab.com/)
