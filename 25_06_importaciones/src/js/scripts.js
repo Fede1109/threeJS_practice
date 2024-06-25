@@ -17,7 +17,7 @@ const camera = new THREE.PerspectiveCamera(
     1000
 );
 
-renderer.setClearColor(0xA3A3A3);
+renderer.setClearColor(0x000);
 
 const orbit = new OrbitControls(camera, renderer.domElement);
 camera.position.set(6, 6, 6);
@@ -34,7 +34,7 @@ renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 4;
 
 let myModel;
-rgbeLoader.load('./assets/MR_INT-001_NaturalStudio_NAD.hdr', function(texture){
+rgbeLoader.load('./assets/MR_INT-006_LoftIndustrialWindow_Griffintown.hdr', function(texture){
     texture.mapping = THREE.EquirectangularReflectionMapping;
     scene.environment = texture;
 
